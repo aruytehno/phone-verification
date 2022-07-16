@@ -4,14 +4,11 @@ import com.skillbox.models.Auto;
 import com.skillbox.models.User;
 import com.skillbox.services.UserService;
 
-import java.sql.SQLException;
-
 public class Main {
-
-    public static void main(String[] args) throws SQLException {
+    public static void main(String[] args) {
 
         UserService userService = new UserService();
-        User user = new User("Masha",26);
+        User user = new User("Masha", 26);
         userService.saveUser(user);
         Auto ferrari = new Auto("Ferrari", "red");
         user.addAuto(ferrari);
