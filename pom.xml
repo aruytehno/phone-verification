@@ -28,12 +28,13 @@
       <scope>test</scope>
     </dependency>
 
-    <!--driver for connection to MYSql database -->
+    <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
     <dependency>
-      <groupId>mysql</groupId>
-      <artifactId>mysql-connector-java</artifactId>
-      <version>5.1.34</version>
+      <groupId>org.postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <version>42.3.3</version>
     </dependency>
+
     <!-- Hibernate -->
     <!-- to start need only this -->
     <dependency>
